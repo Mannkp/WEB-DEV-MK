@@ -1,0 +1,146 @@
+body{
+    background-image: url('https://images.pexels.com/photos/743986/pexels-photo-743986.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.one{
+    color: darkorange;
+    border-width: 5px;
+    border-color: gold;
+    border-style: solid;
+    background-color:aliceblue;
+    font-style:oblique;
+    font-size: larger; 
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 20px;
+    
+}
+
+.imgh{
+    position:relative;
+}
+
+#headin{
+    color:tomato;
+    margin-left: 20%;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+}
+
+hr{
+    margin-top:20px;
+    background-color: blue;
+    height: 5px;
+}
+
+footer{
+    background-color:silver;
+    color: red;
+}
+
+.header2{
+    margin-top: 10px;
+    background-color: Red;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: end;
+    font-size: 20px;
+    height: 50px;
+}
+
+.g{
+    margin-bottom: 10px;
+}
+
+#imag{
+    /* display:block;
+    margin-top: 1px;
+    margin-bottom: 10px;
+    margin-left: 30px; */
+    height: 70px;
+    width :70px;
+}
+
+#css3{
+    display: inline-block;
+    height: 65px;
+    width :50px;
+    margin-left: 1370px;
+}
+
+#githb{
+    position: relative;
+    margin-top: 10px;
+    height: 35px;
+    width :35px;
+}
+
+#in{
+    position: relative;
+    height: 30px;
+    width :30px;
+}
+
+.Mytable{
+    border-width: 5px;
+    border-radius: 10px;
+    border-color: brown;
+    border-style: solid;
+    padding: 20px;
+    margin-left:500px;
+    margin-right:500px;
+    
+}
+
+#tab{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#h{
+    color:orangered;
+    text-align: center;
+}
+
+.h4{
+    color: blueviolet;
+}
+
+.htharry{
+    margin: 1%;
+    height: 90%;
+    width: 90%;
+    position: relative;
+}
+
+.course1{
+    display: flex;
+    justify-content: center;
+    /* flex: 1; */
+    border-style: solid ;
+    border-width: 10%;
+    color: crimson;
+    font-weight: bold;
+    /* position: absolute; */
+    padding:2%;
+    border-radius: 10px;
+    box-sizing: border-box;
+    /* margin-left:100px;
+    margin-right:100px; */
+}
+
+.sp{
+    margin: 6%;
+    color: black;
+    font-size: medium;
+    font-weight: bolder;
+}
+
+#a,#b,#c{
+    margin: 1%;
+}
