@@ -1,5 +1,5 @@
 body{
-    background-image: url('https://images.pexels.com/photos/743986/pexels-photo-743986.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-image: url('https://images.pexels.com/photos/925743/pexels-photo-925743.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
 
     background-repeat: no-repeat;
     background-size: cover;
@@ -13,24 +13,21 @@ body{
     background-color:aliceblue;
     font-style:oblique;
     font-size: larger; 
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 3%;
+    padding-bottom: 3%;
     border-radius: 20px;
     
 }
 
-.imgh{
-    position:relative;
-}
 
 #headin{
     color:tomato;
-    margin-left: 20%;
+    /* margin-left: 20%; */
     font-weight: bold;
     font-family: 'Courier New', Courier, monospace;
-    position: absolute;
+    /* position: absolute; */
 }
 
 hr{
@@ -42,6 +39,8 @@ hr{
 footer{
     background-color:silver;
     color: red;
+    font-size: large;
+    text-align: end;
 }
 
 .header2{
@@ -58,19 +57,34 @@ footer{
 }
 
 #imag{
-    /* display:block;
-    margin-top: 1px;
-    margin-bottom: 10px;
-    margin-left: 30px; */
-    height: 70px;
-    width :70px;
+    height: 100%;
+    width :100%;
 }
 
 #css3{
-    display: inline-block;
-    height: 65px;
-    width :50px;
-    margin-left: 1370px;
+    height: 100%;
+    width :70%;
+}
+
+.fcontainer{
+    display: flex;
+    justify-content: center;
+}
+
+.fbox{
+    margin:1%;
+    height: 122px;
+    width:122px;
+}
+
+#middletxt{
+    width: 1200px;
+    height: 90px;
+    color:coral;
+    font-weight: bolder;
+    font-size:300%;
+    text-align: center;
+    padding-top:2%;
 }
 
 #githb{
@@ -134,13 +148,52 @@ footer{
     margin-right:100px; */
 }
 
-.sp{
-    margin: 6%;
+.sp,.sp1,.sp2{
+    margin: 30%;
     color: black;
-    font-size: medium;
+    font-size: large;
     font-weight: bolder;
 }
 
 #a,#b,#c{
     margin: 1%;
 }
+
+#para{
+    margin-top: 10%;
+    border: 3px solid black;
+    padding: 0.5%;
+    border-radius: 10px;
+    background-color: aliceblue;
+    color: rgb(140, 0, 255);
+    font-size: larger;
+}
+
+.hh{
+    border:3px solid black;
+    background-color:azure;
+    border-radius: 10px;
+    padding: 1%;
+    width: max-content;
+}
+
+.d{
+    background-color: burlywood;
+    width: max-content;
+    padding: 2%;
+    border: 3px solid red;
+    border-radius: 20px;
+}
+
+.submit1{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration:double;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 20px;
+}
+

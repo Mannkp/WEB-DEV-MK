@@ -13,13 +13,22 @@
 </head>
 
 <body>
-    <div class="imgh">
-        <h1 id="headin">Mann's 1st Website after restarting web dev!</h1>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png"
-            alt="html 5 image here" id="imag"></img>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png"
-            id="css3"></img>
+    <div class="fcontainer">
+        <div class="fbox">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png"
+                alt="html 5 image here" id="imag"></img>
+        </div>
+        <div class="fbox" id="middletxt">
+            <!-- <h1 id="headin"></h1> -->
+            Mann's 1st Website after restarting web dev!
+        </div>
+        <div class="fbox">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png"
+                alt="css 3 image here" id="css3"></img>
+        </div>
     </div>
+
+
     <header class="header2">
         <img src="https://icon-library.com/images/github-svg-icon/github-svg-icon-1.jpg" id="githb"></img>
         <a href="https://github.com/Mannkp" target="_blank" class="g">github</a>
@@ -67,51 +76,52 @@
     <hr>
     <br>
 
-   <h3 class="h4"> Courses Which I Like to follow: </h3>
-   <p class="h4">these are clickable links, to access, click on any images</p>
-   <div class="course1">
-       <div id="a">
-    <a href="https://www.youtube.com/watch?v=BsDoLVMnmZs"><img src="https://i.ytimg.com/vi/BsDoLVMnmZs/maxresdefault.jpg" alt="code with harry HTML BOOTCAMP" class="htharry"></img></a>
-    <span class="sp">HTML BOOTCAMP</span>
+    <h2 class="h4"> Courses Which I Like to follow: </h2>
+    <p class="h4">these are clickable links, to access, click on any images</p>
+    <div class="course1">
+        <div id="a">
+            <a href="https://www.youtube.com/watch?v=BsDoLVMnmZs"><img
+                    src="https://i.ytimg.com/vi/BsDoLVMnmZs/maxresdefault.jpg" alt="code with harry HTML BOOTCAMP"
+                    class="htharry"></img></a>
+            <span class="sp">HTML BOOTCAMP</span>
         </div>
         <div id="b">
-    <a href="https://www.youtube.com/watch?v=6mbwJ2xhgzM" ><img src="https://i.ytimg.com/vi/6mbwJ2xhgzM/maxresdefault.jpg" class="htharry"></img></a>
-    <span class="sp">CSS TUTORIALS</span>
-            </div>
+            <a href="https://www.youtube.com/watch?v=6mbwJ2xhgzM"><img
+                    src="https://i.ytimg.com/vi/6mbwJ2xhgzM/maxresdefault.jpg" class="htharry"></img></a>
+            <span class="sp1">CSS TUTORIALS</span>
+        </div>
         <div id="c">
-    <a href="https://www.youtube.com/watch?v=6mbwJ2xhgzM" ><img src="https://i.ytimg.com/vi/6mbwJ2xhgzM/maxresdefault.jpg" class="htharry"></img></a>
-    <span class="sp">JS TUTORIALS</span>
-    </div>
-    <br>
-</div>
-   
-    
-
-    <div class="csscourse">
-       
+            <a href="https://www.youtube.com/watch?v=6mbwJ2xhgzM"><img
+                    src="https://i.ytimg.com/vi/6mbwJ2xhgzM/maxresdefault.jpg" class="htharry"></img></a>
+            <span class="sp2">JS TUTORIALS</span>
+        </div>
+        <br>
     </div>
 
+    <p id="para">Please Consider Filling this FORM to contact me and to give any suggestions. Thankng You in advance.
+    </p>
+    <div class="hh">
     <h2>Mann HTML FORM</h2>
     <form action="backend.php">
         <br>
-        <div>
+        <div class="d">
             <label for="Names">Name: </label>
             <input type="text" name="MyName" id="Names">
         </div>
         <br>
-        <div>
+        <div class="d">
             Date of Birth : <input type="date" name="Mydateobirth">
         </div>
         <br>
-        <div>
+        <div class="d">
             Phone Number : <input type="number" name="MyPhone">
         </div>
         <br>
-        <div>
+        <div class="d">
             Address : <textarea name="MyAddress" rows="4" cols="30"></textarea>
         </div>
         <br>
-        <div>
+        <div class="d">
             <label for="state">Select State :</label>
             <select name="MyStates" id="state">
                 <option value="sel" selected>select</option>
@@ -122,32 +132,37 @@
             </select>
         </div>
         <br>
-        <div>
+        <div class="d">
             Email : <input type="email" name="MyEmail">
         </div>
         <br>
-        <div>
+        <div class="d">
             Select the type of email : Personal <input type="checkbox" name="Mycheckbox"> Professional <input
                 type="checkbox" name="Mycheckbox">
         </div>
         <br>
-        <div>
+        <div class="d">
             Gender : Male <input type="radio" name="MyGender"> Female <input type="radio" name="MyGender"> Others <input
                 type="radio" name="MyGender">
         </div>
         <br>
+        <div class="d">
+            Suggestions (if any): <input type="text" name="MySuggestions">
+        </div>
+        <br>
         <div>
-            <input type="submit" value="Submit Now">
-            <input type="reset" value="Reset/Clear Form">
+            <input type="submit" value="Submit Now" class="submit1">
+            <input type="reset" value="Reset Form" class="submit1">
         </div>
 
     </form>
+    </div>
 
     <br>
     <br>
     <br>
 
-    <footer>This is Footer</footer>
+    <footer>Page Made By ~ Mannkumar K. Pandya</footer>
 
 </body>
 
