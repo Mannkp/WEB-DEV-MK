@@ -44,19 +44,18 @@ footer{
 }
 
 .header2{
-    margin-top: 10px;
     background-color: Red;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: end;
-    font-size: 120%;
-    height: 10%;
-    width: 100%;
+    border: 3px solid brown;
     box-sizing: border-box;
     border-radius: 5px;
+    display: flex;
+    justify-content:end;
 }
 
 .g{
-    margin-bottom: 10px;
+    margin:1%;
+    height: 12px;
+    width:12px;
 }
 
 #imag{
@@ -91,16 +90,13 @@ footer{
 }
 
 #githb{
-    position: relative;
-    margin-top: 10px;
-    height: 2.5%;
-    width :2.5%;
+    height: 23px;
+    width :23px;
 }
 
 #in{
-    position: relative;
-    height: 2%;
-    width :2%;
+    height: 20px;
+    width :20px;
 }
 
 .Mytable{
