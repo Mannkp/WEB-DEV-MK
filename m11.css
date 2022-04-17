@@ -186,6 +186,7 @@ footer{
     padding: 2%;
     border: 3px solid red;
     border-radius: 20px;
+    box-sizing: border-box;
 }
 
 .submit1{
